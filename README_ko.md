@@ -1,45 +1,34 @@
-# NumPy 실습 챌린지
+# Hydra 실습 도전
 
 ## 언어
 
-🇨🇳 [简体中文](README_zh.md) 🇪🇸 [Español](README_es.md) 🇫🇷 [Français](README_fr.md) 🇩🇪 [Deutsch](README_de.md) 🇯🇵 [日本語](README_ja.md) 🇷🇺 [Русский](README_ru.md) 🇰🇷 [한국어](README_ko.md) 🇧🇷 [Português](README_pt.md) 🇺🇸 [English](README.md) 
+🇨🇳 [简体中文](README_zh.md) 🇯🇵 [日本語](README_ja.md) 🇪🇸 [Español](README_es.md) 🇷🇺 [Русский](README_ru.md) 🇫🇷 [Français](README_fr.md) 🇩🇪 [Deutsch](README_de.md) 🇰🇷 [한국어](README_ko.md) 🇧🇷 [Português](README_pt.md) 🇺🇸 [English](README.md) 
 
-[![NumPy 실습 챌린지](https://cover-creator.labex.io/numpy-practice-challenges.png?lang=ko)](https://labex.io/ko/courses/numpy-practice-challenges)
+<div align="center">
+<img width="128px" src="https://file.labex.io/upload/u/1991/opfL1Ca0Wdha.png">
+</div>
 
-[![Start-Learning](https://img.shields.io/badge/Start-Learning-whitesmoke?style=for-the-badge)](https://labex.io/ko/courses/numpy-practice-challenges)
+강력한 오픈 소스 도구인 Hydra 를 사용하여 비밀번호 크래킹 및 무차별 대입 테스트를 학습하세요. 이 학습 경로는 사이버 보안 및 침투 테스트 초보자를 위해 설계된 포괄적인 Hydra 과정을 제공합니다. 무차별 대입 공격, 비밀번호 열거 및 인증 테스트를 이해하기 위한 체계적인 로드맵을 제공합니다. 비디오가 아닌 실용적인 과정과 침투 테스트 플레이그라운드에서의 실습을 통해 Hydra 를 사용하여 시스템 보안을 테스트하고 취약한 자격 증명을 식별하는 실제 경험을 얻을 수 있습니다.
 
-본 과정은 NumPy 를 위한 다양한 챌린지를 포함하고 있으며, 각 챌린지는 상세한 지침과 솔루션을 갖춘 작은 NumPy 프로젝트입니다. 이러한 챌린지를 해결함으로써 NumPy 기술을 연습하고, 문제 해결 능력을 향상시키며, 깔끔하고 효율적인 코드를 작성하는 방법을 배울 수 있습니다.
+LabEx 의 9개 이하 Hydra 집중 도전을 살펴보세요. 각 도전은 대화형 환경에서 열려 특정 기술을 연습할 수 있습니다.
 
-![NumPy](https://img.shields.io/badge/NumPy-whitesmoke?style=for-the-badge&logo=numpy)
+|   인덱스 | 이름                                                                                                         | 스킬            | 난이도   | 연습                                                                               |
+|-------|------------------------------------------------------------------------------------------------------------|---------------|-------|----------------------------------------------------------------------------------|
+|     1 | [특정 사용자 계정 비밀번호 크래킹](https://labex.io/ko/labs/linux-cracking-a-specific-user-account-415951)               | HTTP 양식 감사    | 초급    | [도전 시작](https://labex.io/ko/labs/linux-cracking-a-specific-user-account-415951)  |
+|     2 | [Hydra 설치 확인](https://labex.io/ko/labs/hydra-verify-hydra-installation-549983)                             | 패키지 수명주기      | 중급    | [도전 시작](https://labex.io/ko/labs/hydra-verify-hydra-installation-549983)         |
+|     3 | [신규 사용자 SSH 로그인 암호 해독](https://labex.io/ko/labs/hydra-crack-new-user-ssh-login-550712)                     | SSH 감사        | 중급    | [도전 시작](https://labex.io/ko/labs/hydra-crack-new-user-ssh-login-550712)          |
+|     4 | [숨겨진 서비스의 암호 해독](https://labex.io/ko/labs/hydra-crack-the-hidden-service-550719)                           | HTTP 인증 감사    | 중급    | [도전 시작](https://labex.io/ko/labs/hydra-crack-the-hidden-service-550719)          |
+|     5 | [사용자 정의 워드리스트를 활용한 FTP 비밀번호 크래킹](https://labex.io/ko/labs/hydra-crack-ftp-with-custom-wordlist-550733)     | FTP 감사        | 중급    | [도전 시작](https://labex.io/ko/labs/hydra-crack-ftp-with-custom-wordlist-550733)    |
+|     6 | [취약한 Telnet 비밀번호 크래킹](https://labex.io/ko/labs/hydra-crack-a-weak-telnet-password-550745)                  | 대상 사양         | 중급    | [도전 시작](https://labex.io/ko/labs/hydra-crack-a-weak-telnet-password-550745)      |
+|     7 | [비밀 요원의 취약한 SSH 비밀번호 크래킹](https://labex.io/ko/labs/hydra-crack-agent-s-weak-ssh-password-550753)           | SSH 감사        | 중급    | [도전 시작](https://labex.io/ko/labs/hydra-crack-agent-s-weak-ssh-password-550753)   |
+|     8 | [Hydra 를 이용한 PostgreSQL 자격 증명 감사](https://labex.io/ko/labs/audit-postgresql-credentials-with-hydra-705348) | 데이터베이스 서비스 감사 | 초급    | [도전 시작](https://labex.io/ko/labs/audit-postgresql-credentials-with-hydra-705348) |
+|     9 | [Hydra 자격 증명 파일을 안전하게 처리하기](https://labex.io/ko/labs/handle-hydra-credential-files-safely-705349)          | 자격 증명 처리      | 초급    | [도전 시작](https://labex.io/ko/labs/handle-hydra-credential-files-safely-705349)    |
 
-
-## 연습
-
-|   인덱스 | 이름                                         | 난이도   | 연습                                                                                                                                                  |
-|----------|----------------------------------------------|----------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-|       01 | 🎯 🆓 Numpy in Space                         | 초급     | <a target='_blank' href='https://labex.io/ko/labs/numpy-numpy-in-space-33961?course=numpy-practice-challenges'>도전 시작</a>                          |
-|       02 | 🎯 🆓 NumPy 배열 데이터 타입 변환기          | 초급     | <a target='_blank' href='https://labex.io/ko/labs/numpy-numpy-array-datatype-converter-9187?course=numpy-practice-challenges'>도전 시작</a>           |
-|       03 | 🎯 🆓 NumPy 배열 연산                        | 초급     | <a target='_blank' href='https://labex.io/ko/labs/numpy-numpy-array-operation-8708?course=numpy-practice-challenges'>도전 시작</a>                    |
-|       04 | 🎯 🆓 배열 인덱싱 및 슬라이싱                | 초급     | <a target='_blank' href='https://labex.io/ko/labs/numpy-array-indexing-and-slicing-38504?course=numpy-practice-challenges'>도전 시작</a>              |
-|       05 | 🎯 🆓 NumPy 배열을 원하는 모양으로 만들기    | 초급     | <a target='_blank' href='https://labex.io/ko/labs/numpy-make-numpy-array-your-shape-8687?course=numpy-practice-challenges'>도전 시작</a>              |
-|       06 | 🎯 🆓 NumPy 수학 연산 연습                   | 초급     | <a target='_blank' href='https://labex.io/ko/labs/python-numpy-math-games-10?course=numpy-practice-challenges'>도전 시작</a>                          |
-|       07 | 🎯 🆓 NumPy Dot Product                      | 초급     | <a target='_blank' href='https://labex.io/ko/labs/numpy-numpy-dot-product-8737?course=numpy-practice-challenges'>도전 시작</a>                        |
-|       08 | 🎯 🆓 NumPy 를 이용한 난수 생성              | 초급     | <a target='_blank' href='https://labex.io/ko/labs/numpy-random-number-generation-with-numpy-34635?course=numpy-practice-challenges'>도전 시작</a>     |
-|       09 | 🎯 🆓 NumPy 를 이용한 선형 대수 문제 해결    | 초급     | <a target='_blank' href='https://labex.io/ko/labs/numpy-linear-algebra-solving-with-numpy-8000?course=numpy-practice-challenges'>도전 시작</a>        |
-|       10 | 🎯 🆓 정렬 및 탐색                           | 초급     | <a target='_blank' href='https://labex.io/ko/labs/numpy-sorting-and-searching-154566?course=numpy-practice-challenges'>도전 시작</a>                  |
-|       11 | 🎯 🆓 NumPy 리스트 값 통계                   | 초급     | <a target='_blank' href='https://labex.io/ko/labs/numpy-numpy-list-value-statistics-664?course=numpy-practice-challenges'>도전 시작</a>               |
-|       12 | 🎯 🆓 문자열 연산                            | 초급     | <a target='_blank' href='https://labex.io/ko/labs/python-string-operations-148882?course=numpy-practice-challenges'>도전 시작</a>                     |
-|       13 | 🎯 🆓 Binary Operations Challenge with NumPy | 초급     | <a target='_blank' href='https://labex.io/ko/labs/numpy-binary-operations-challenge-with-numpy-153823?course=numpy-practice-challenges'>도전 시작</a> |
-|       14 | 🎯 🆓 FFT 분석 및 시각화                     | 초급     | <a target='_blank' href='https://labex.io/ko/labs/numpy-analyze-and-visualize-fft-55715?course=numpy-practice-challenges'>도전 시작</a>               |
-|       15 | 🎯 🆓 NumPy Einsum 함수                      | 초급     | <a target='_blank' href='https://labex.io/ko/labs/numpy-numpy-einsum-function-8001?course=numpy-practice-challenges'>도전 시작</a>                    |
-
-## LabEx 소개
-
-[LabEx](https://labex.io) 는 코딩과 기술에 전념하는 대화형 실습 학습 플랫폼입니다. 실험실, AI 지원 및 가상 머신을 결합하여 비디오 없는 실용적인 학습 경험을 제공합니다. 비디오 없는 독점적인 실습 실험실로 엄격한 '실습을 통한 학습' 접근 방식, 브라우저 내 대화형 온라인 환경에서 자동화된 단계별 확인, 스킬 트리 기반 시스템으로 구조화된 콘텐츠 구성, 30 개의 스킬 트리와 6,000 개 이상의 실험실을 포함하는 성장하는 학습 리소스로, [LabEx](https://labex.io) 는 종합적인 실습 교육을 제공합니다. 플랫폼에는 최신 AI 모델을 기반으로 구축된 학습 도우미 Labby 가 포함되어 대화형 학습 경험을 제공합니다.
+[모든 도전 보기](https://labex.io/ko/learn/hydra).
 
 ## 더 보기
 
-- 🔗 [NumPy 프로그래밍 코스](https://github.com/labex-labs/awesome-programming-courses)
-- 🔗 [NumPy 프로그래밍 프로젝트](https://github.com/labex-labs/awesome-programming-projects)
-- 🔗 [NumPy 무료 튜토리얼](https://github.com/labex-labs/numpy-free-tutorials)
+- 🔗 [LabEx 에서 Hydra 더 알아보기](https://labex.io/ko/learn/hydra)
+- 🔗 [더 많은 프로그래밍 프로젝트 탐색](https://github.com/labex-labs/awesome-programming-projects)
+- 🔗 [프로그래밍 코스 탐색](https://github.com/labex-labs/awesome-programming-courses)
 
