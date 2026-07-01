@@ -1,45 +1,34 @@
-# Desafios Práticos de NumPy
+# Desafios práticos de Hydra
 
 ## Idiomas
 
-🇨🇳 [简体中文](README_zh.md) 🇪🇸 [Español](README_es.md) 🇫🇷 [Français](README_fr.md) 🇩🇪 [Deutsch](README_de.md) 🇯🇵 [日本語](README_ja.md) 🇷🇺 [Русский](README_ru.md) 🇰🇷 [한국어](README_ko.md) 🇧🇷 [Português](README_pt.md) 🇺🇸 [English](README.md) 
+🇨🇳 [简体中文](README_zh.md) 🇯🇵 [日本語](README_ja.md) 🇪🇸 [Español](README_es.md) 🇷🇺 [Русский](README_ru.md) 🇫🇷 [Français](README_fr.md) 🇩🇪 [Deutsch](README_de.md) 🇰🇷 [한국어](README_ko.md) 🇧🇷 [Português](README_pt.md) 🇺🇸 [English](README.md) 
 
-[![Desafios Práticos de NumPy](https://cover-creator.labex.io/numpy-practice-challenges.png?lang=pt)](https://labex.io/pt/courses/numpy-practice-challenges)
+<div align="center">
+<img width="128px" src="https://file.labex.io/upload/u/1991/opfL1Ca0Wdha.png">
+</div>
 
-[![Start-Learning](https://img.shields.io/badge/Start-Learning-whitesmoke?style=for-the-badge)](https://labex.io/pt/courses/numpy-practice-challenges)
+Aprenda Hydra, uma poderosa ferramenta de código aberto para quebra de senhas e testes de força bruta. Este Percurso de Aprendizagem oferece cursos abrangentes de Hydra, projetados para iniciantes em cibersegurança e testes de penetração. Ele fornece um roteiro estruturado para entender ataques de força bruta, enumeração de senhas e testes de autenticação. Através de cursos práticos sem vídeo e exercícios práticos em um ambiente de testes de penetração, você ganhará experiência real usando Hydra para testar a segurança do sistema e identificar credenciais fracas.
 
-Este curso contém muitos desafios para NumPy, cada desafio é um pequeno projeto NumPy com instruções detalhadas e soluções. Você pode praticar suas habilidades em NumPy resolvendo esses desafios, aprimorar suas habilidades de resolução de problemas e aprender a escrever código limpo e eficiente.
+Explore até 9 desafios focados de Hydra no LabEx. Cada desafio abre em um ambiente interativo para você praticar habilidades específicas.
 
-![NumPy](https://img.shields.io/badge/NumPy-whitesmoke?style=for-the-badge&logo=numpy)
+|   Índice | Nome                                                                                                                             | Habilidades                            | Dificuldade   | Prática                                                                                    |
+|----------|----------------------------------------------------------------------------------------------------------------------------------|----------------------------------------|---------------|--------------------------------------------------------------------------------------------|
+|        1 | [Quebrando uma Conta de Usuário Específica](https://labex.io/pt/labs/linux-cracking-a-specific-user-account-415951)              | Auditoria de formulário HTTP           | Iniciante     | [Iniciar Desafio](https://labex.io/pt/labs/linux-cracking-a-specific-user-account-415951)  |
+|        2 | [Verificar a Instalação do Hydra](https://labex.io/pt/labs/hydra-verify-hydra-installation-549983)                               | Ciclo de vida do pacote                | Intermediário | [Iniciar Desafio](https://labex.io/pt/labs/hydra-verify-hydra-installation-549983)         |
+|        3 | [Quebrar Login SSH de Novo Usuário](https://labex.io/pt/labs/hydra-crack-new-user-ssh-login-550712)                              | Auditoria SSH                          | Intermediário | [Iniciar Desafio](https://labex.io/pt/labs/hydra-crack-new-user-ssh-login-550712)          |
+|        4 | [Quebrar o Serviço Oculto](https://labex.io/pt/labs/hydra-crack-the-hidden-service-550719)                                       | Auditoria de autenticação HTTP         | Intermediário | [Iniciar Desafio](https://labex.io/pt/labs/hydra-crack-the-hidden-service-550719)          |
+|        5 | [Quebrar Senha de FTP com Lista de Palavras Personalizada](https://labex.io/pt/labs/hydra-crack-ftp-with-custom-wordlist-550733) | Auditoria FTP                          | Intermediário | [Iniciar Desafio](https://labex.io/pt/labs/hydra-crack-ftp-with-custom-wordlist-550733)    |
+|        6 | [Quebrar uma Senha Fraca de Telnet](https://labex.io/pt/labs/hydra-crack-a-weak-telnet-password-550745)                          | Especificação de destino               | Intermediário | [Iniciar Desafio](https://labex.io/pt/labs/hydra-crack-a-weak-telnet-password-550745)      |
+|        7 | [Quebrar a Senha SSH Fraca do Agente](https://labex.io/pt/labs/hydra-crack-agent-s-weak-ssh-password-550753)                     | Auditoria SSH                          | Intermediário | [Iniciar Desafio](https://labex.io/pt/labs/hydra-crack-agent-s-weak-ssh-password-550753)   |
+|        8 | [Auditar credenciais do PostgreSQL com o Hydra](https://labex.io/pt/labs/audit-postgresql-credentials-with-hydra-705348)         | Auditoria de serviço de banco de dados | Iniciante     | [Iniciar Desafio](https://labex.io/pt/labs/audit-postgresql-credentials-with-hydra-705348) |
+|        9 | [Manuseie Arquivos de Credenciais do Hydra com Segurança](https://labex.io/pt/labs/handle-hydra-credential-files-safely-705349)  | Tratamento de credenciais              | Iniciante     | [Iniciar Desafio](https://labex.io/pt/labs/handle-hydra-credential-files-safely-705349)    |
 
-
-## Exercícios
-
-|   Índice | Nome                                              | Dificuldade   | Prática                                                                                                                                                     |
-|----------|---------------------------------------------------|---------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|       01 | 🎯 🆓 NumPy no Espaço                             | Iniciante     | <a target='_blank' href='https://labex.io/pt/labs/numpy-numpy-in-space-33961?course=numpy-practice-challenges'>Iniciar Desafio</a>                          |
-|       02 | 🎯 🆓 Conversor de Tipo de Dado de Array NumPy    | Iniciante     | <a target='_blank' href='https://labex.io/pt/labs/numpy-numpy-array-datatype-converter-9187?course=numpy-practice-challenges'>Iniciar Desafio</a>           |
-|       03 | 🎯 🆓 Operações com Arrays NumPy                  | Iniciante     | <a target='_blank' href='https://labex.io/pt/labs/numpy-numpy-array-operation-8708?course=numpy-practice-challenges'>Iniciar Desafio</a>                    |
-|       04 | 🎯 🆓 Indexação e Slicing de Arrays               | Iniciante     | <a target='_blank' href='https://labex.io/pt/labs/numpy-array-indexing-and-slicing-38504?course=numpy-practice-challenges'>Iniciar Desafio</a>              |
-|       05 | 🎯 🆓 Dê ao seu Array NumPy o Formato Desejado    | Iniciante     | <a target='_blank' href='https://labex.io/pt/labs/numpy-make-numpy-array-your-shape-8687?course=numpy-practice-challenges'>Iniciar Desafio</a>              |
-|       06 | 🎯 🆓 Jogos Matemáticos com NumPy                 | Iniciante     | <a target='_blank' href='https://labex.io/pt/labs/python-numpy-math-games-10?course=numpy-practice-challenges'>Iniciar Desafio</a>                          |
-|       07 | 🎯 🆓 Produto Escalar NumPy                       | Iniciante     | <a target='_blank' href='https://labex.io/pt/labs/numpy-numpy-dot-product-8737?course=numpy-practice-challenges'>Iniciar Desafio</a>                        |
-|       08 | 🎯 🆓 Geração de Números Aleatórios com NumPy     | Iniciante     | <a target='_blank' href='https://labex.io/pt/labs/numpy-random-number-generation-with-numpy-34635?course=numpy-practice-challenges'>Iniciar Desafio</a>     |
-|       09 | 🎯 🆓 Resolução de Álgebra Linear com NumPy       | Iniciante     | <a target='_blank' href='https://labex.io/pt/labs/numpy-linear-algebra-solving-with-numpy-8000?course=numpy-practice-challenges'>Iniciar Desafio</a>        |
-|       10 | 🎯 🆓 Ordenação e Busca                           | Iniciante     | <a target='_blank' href='https://labex.io/pt/labs/numpy-sorting-and-searching-154566?course=numpy-practice-challenges'>Iniciar Desafio</a>                  |
-|       11 | 🎯 🆓 Estatísticas de Valores de Listas com NumPy | Iniciante     | <a target='_blank' href='https://labex.io/pt/labs/numpy-numpy-list-value-statistics-664?course=numpy-practice-challenges'>Iniciar Desafio</a>               |
-|       12 | 🎯 🆓 Operações com Strings                       | Iniciante     | <a target='_blank' href='https://labex.io/pt/labs/python-string-operations-148882?course=numpy-practice-challenges'>Iniciar Desafio</a>                     |
-|       13 | 🎯 🆓 Desafio de Operações Binárias com NumPy     | Iniciante     | <a target='_blank' href='https://labex.io/pt/labs/numpy-binary-operations-challenge-with-numpy-153823?course=numpy-practice-challenges'>Iniciar Desafio</a> |
-|       14 | 🎯 🆓 Analisar e Visualizar FFT                   | Iniciante     | <a target='_blank' href='https://labex.io/pt/labs/numpy-analyze-and-visualize-fft-55715?course=numpy-practice-challenges'>Iniciar Desafio</a>               |
-|       15 | 🎯 🆓 Função Einsum do NumPy                      | Iniciante     | <a target='_blank' href='https://labex.io/pt/labs/numpy-numpy-einsum-function-8001?course=numpy-practice-challenges'>Iniciar Desafio</a>                    |
-
-## Sobre LabEx
-
-[LabEx](https://labex.io) é uma plataforma de aprendizagem interativa e prática dedicada à programação e tecnologia. Combina laboratórios, assistência de IA e máquinas virtuais para fornecer uma experiência de aprendizagem prática sem vídeos. Com uma abordagem rigorosa de 'Aprender Fazendo', ambientes online interativos no navegador com verificações automatizadas passo a passo, organização de conteúdo estruturada com o sistema baseado em Árvore de Habilidades, e um recurso de aprendizagem crescente de 30 Árvores de Habilidades e mais de 6.000 Laboratórios, [LabEx](https://labex.io) oferece educação prática integral. A plataforma inclui o assistente de aprendizagem Labby, construído sobre os últimos modelos de IA, fornecendo uma experiência de aprendizagem conversacional.
+[Ver todos os desafios](https://labex.io/pt/learn/hydra).
 
 ## Mais
 
-- 🔗 [NumPy Cursos de Programação](https://github.com/labex-labs/awesome-programming-courses)
-- 🔗 [NumPy Projetos de Programação](https://github.com/labex-labs/awesome-programming-projects)
-- 🔗 [NumPy Tutoriais Gratuitos](https://github.com/labex-labs/numpy-free-tutorials)
+- 🔗 [Saiba mais sobre Hydra no LabEx](https://labex.io/pt/learn/hydra)
+- 🔗 [Explore mais projetos de programação](https://github.com/labex-labs/awesome-programming-projects)
+- 🔗 [Explore cursos de programação](https://github.com/labex-labs/awesome-programming-courses)
 
