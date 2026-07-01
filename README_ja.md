@@ -1,45 +1,34 @@
-# NumPy 実践チャレンジ
+# Hydra 実践チャレンジ
 
 ## 言語
 
-🇨🇳 [简体中文](README_zh.md) 🇪🇸 [Español](README_es.md) 🇫🇷 [Français](README_fr.md) 🇩🇪 [Deutsch](README_de.md) 🇯🇵 [日本語](README_ja.md) 🇷🇺 [Русский](README_ru.md) 🇰🇷 [한국어](README_ko.md) 🇧🇷 [Português](README_pt.md) 🇺🇸 [English](README.md) 
+🇨🇳 [简体中文](README_zh.md) 🇯🇵 [日本語](README_ja.md) 🇪🇸 [Español](README_es.md) 🇷🇺 [Русский](README_ru.md) 🇫🇷 [Français](README_fr.md) 🇩🇪 [Deutsch](README_de.md) 🇰🇷 [한국어](README_ko.md) 🇧🇷 [Português](README_pt.md) 🇺🇸 [English](README.md) 
 
-[![NumPy 実践チャレンジ](https://cover-creator.labex.io/numpy-practice-challenges.png?lang=ja)](https://labex.io/ja/courses/numpy-practice-challenges)
+<div align="center">
+<img width="128px" src="https://file.labex.io/upload/u/1991/opfL1Ca0Wdha.png">
+</div>
 
-[![Start-Learning](https://img.shields.io/badge/Start-Learning-whitesmoke?style=for-the-badge)](https://labex.io/ja/courses/numpy-practice-challenges)
+パスワードクラッキングとブルートフォーステストのための強力なオープンソースツールである Hydra を学びましょう。この学習パスは、サイバーセキュリティとペネトレーションテストの初心者向けに設計された包括的な Hydra コースを提供します。ブルートフォース攻撃、パスワード列挙、認証テストを理解するための体系的なロードマップを提供します。実践的な非ビデオコースと、ペネトレーションテストのプレイグラウンドでのハンズオン演習を通じて、Hydra を使用してシステムセキュリティをテストし、脆弱な認証情報を特定する実世界の経験を積むことができます。
 
-このコースには、NumPy に関する多数のチャレンジが含まれています。各チャレンジは、詳細な指示と解決策を備えた小さな NumPy プロジェクトです。これらのチャレンジを解くことで、NumPy のスキルを練習し、問題解決能力を向上させ、クリーンで効率的なコードの書き方を学ぶことができます。
+LabEx の最大 9 個の Hydra 集中チャレンジを一覧できます。各チャレンジはインタラクティブ環境で開き、特定のスキルを練習できます。
 
-![NumPy](https://img.shields.io/badge/NumPy-whitesmoke?style=for-the-badge&logo=numpy)
+|   インデックス | 名前                                                                                                        | スキル           | 難易度   | 練習                                                                                  |
+|----------|-----------------------------------------------------------------------------------------------------------|---------------|-------|-------------------------------------------------------------------------------------|
+|        1 | [特定ユーザーアカウントのクラッキング](https://labex.io/ja/labs/linux-cracking-a-specific-user-account-415951)              | HTTP フォームの監査  | 初級    | [チャレンジを開始](https://labex.io/ja/labs/linux-cracking-a-specific-user-account-415951)  |
+|        2 | [Hydra のインストール確認](https://labex.io/ja/labs/hydra-verify-hydra-installation-549983)                        | パッケージのライフサイクル | 中級    | [チャレンジを開始](https://labex.io/ja/labs/hydra-verify-hydra-installation-549983)         |
+|        3 | [新規ユーザーの SSH ログインパスワードの解析](https://labex.io/ja/labs/hydra-crack-new-user-ssh-login-550712)                | SSH 監査        | 中級    | [チャレンジを開始](https://labex.io/ja/labs/hydra-crack-new-user-ssh-login-550712)          |
+|        4 | [隠されたサービスのクラッキング](https://labex.io/ja/labs/hydra-crack-the-hidden-service-550719)                         | HTTP 認証監査     | 中級    | [チャレンジを開始](https://labex.io/ja/labs/hydra-crack-the-hidden-service-550719)          |
+|        5 | [カスタムワードリストを使用した FTP パスワードのクラック](https://labex.io/ja/labs/hydra-crack-ftp-with-custom-wordlist-550733)    | FTP 監査        | 中級    | [チャレンジを開始](https://labex.io/ja/labs/hydra-crack-ftp-with-custom-wordlist-550733)    |
+|        6 | [脆弱な Telnet パスワードの解析](https://labex.io/ja/labs/hydra-crack-a-weak-telnet-password-550745)                 | ターゲット仕様       | 中級    | [チャレンジを開始](https://labex.io/ja/labs/hydra-crack-a-weak-telnet-password-550745)      |
+|        7 | [エージェントの脆弱な SSH パスワードの解読](https://labex.io/ja/labs/hydra-crack-agent-s-weak-ssh-password-550753)          | SSH 監査        | 中級    | [チャレンジを開始](https://labex.io/ja/labs/hydra-crack-agent-s-weak-ssh-password-550753)   |
+|        8 | [Hydra を使用した PostgreSQL 認証情報の監査](https://labex.io/ja/labs/audit-postgresql-credentials-with-hydra-705348) | データベースサービスの監査 | 初級    | [チャレンジを開始](https://labex.io/ja/labs/audit-postgresql-credentials-with-hydra-705348) |
+|        9 | [Hydra 認証情報ファイルの安全な取り扱い](https://labex.io/ja/labs/handle-hydra-credential-files-safely-705349)            | 資格情報の処理       | 初級    | [チャレンジを開始](https://labex.io/ja/labs/handle-hydra-credential-files-safely-705349)    |
 
-
-## 演習
-
-|   インデックス | 名前                                         | 難易度   | 練習                                                                                                                                                         |
-|----------------|----------------------------------------------|----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|             01 | 🎯 🆓 宇宙における NumPy                     | 初級     | <a target='_blank' href='https://labex.io/ja/labs/numpy-numpy-in-space-33961?course=numpy-practice-challenges'>チャレンジを開始</a>                          |
-|             02 | 🎯 🆓 NumPy 配列のデータ型変換               | 初級     | <a target='_blank' href='https://labex.io/ja/labs/numpy-numpy-array-datatype-converter-9187?course=numpy-practice-challenges'>チャレンジを開始</a>           |
-|             03 | 🎯 🆓 NumPy 配列操作                         | 初級     | <a target='_blank' href='https://labex.io/ja/labs/numpy-numpy-array-operation-8708?course=numpy-practice-challenges'>チャレンジを開始</a>                    |
-|             04 | 🎯 🆓 配列のインデックス付けとスライシング   | 初級     | <a target='_blank' href='https://labex.io/ja/labs/numpy-array-indexing-and-slicing-38504?course=numpy-practice-challenges'>チャレンジを開始</a>              |
-|             05 | 🎯 🆓 NumPy 配列をあなたの好きな形状に変える | 初級     | <a target='_blank' href='https://labex.io/ja/labs/numpy-make-numpy-array-your-shape-8687?course=numpy-practice-challenges'>チャレンジを開始</a>              |
-|             06 | 🎯 🆓 NumPy 数学ゲーム (NumPy Math Games)    | 初級     | <a target='_blank' href='https://labex.io/ja/labs/python-numpy-math-games-10?course=numpy-practice-challenges'>チャレンジを開始</a>                          |
-|             07 | 🎯 🆓 NumPy の内積                           | 初級     | <a target='_blank' href='https://labex.io/ja/labs/numpy-numpy-dot-product-8737?course=numpy-practice-challenges'>チャレンジを開始</a>                        |
-|             08 | 🎯 🆓 NumPy を使った乱数生成                 | 初級     | <a target='_blank' href='https://labex.io/ja/labs/numpy-random-number-generation-with-numpy-34635?course=numpy-practice-challenges'>チャレンジを開始</a>     |
-|             09 | 🎯 🆓 NumPy を使った線形代数の解き方         | 初級     | <a target='_blank' href='https://labex.io/ja/labs/numpy-linear-algebra-solving-with-numpy-8000?course=numpy-practice-challenges'>チャレンジを開始</a>        |
-|             10 | 🎯 🆓 ソートと検索                           | 初級     | <a target='_blank' href='https://labex.io/ja/labs/numpy-sorting-and-searching-154566?course=numpy-practice-challenges'>チャレンジを開始</a>                  |
-|             11 | 🎯 🆓 NumPy リスト値の統計                   | 初級     | <a target='_blank' href='https://labex.io/ja/labs/numpy-numpy-list-value-statistics-664?course=numpy-practice-challenges'>チャレンジを開始</a>               |
-|             12 | 🎯 🆓 文字列操作                             | 初級     | <a target='_blank' href='https://labex.io/ja/labs/python-string-operations-148882?course=numpy-practice-challenges'>チャレンジを開始</a>                     |
-|             13 | 🎯 🆓 NumPy を使ったバイナリ演算チャレンジ   | 初級     | <a target='_blank' href='https://labex.io/ja/labs/numpy-binary-operations-challenge-with-numpy-153823?course=numpy-practice-challenges'>チャレンジを開始</a> |
-|             14 | 🎯 🆓 FFT を分析して可視化する               | 初級     | <a target='_blank' href='https://labex.io/ja/labs/numpy-analyze-and-visualize-fft-55715?course=numpy-practice-challenges'>チャレンジを開始</a>               |
-|             15 | 🎯 🆓 NumPy Einsum 関数                      | 初級     | <a target='_blank' href='https://labex.io/ja/labs/numpy-numpy-einsum-function-8001?course=numpy-practice-challenges'>チャレンジを開始</a>                    |
-
-## LabEx について
-
-[LabEx](https://labex.io) は、コーディングとテクノロジーに特化したインタラクティブな実践学習プラットフォームです。ラボ、AI 支援、仮想マシンを組み合わせて、ビデオなしの実践的な学習体験を提供します。動画なしの独自の実践ラボによる厳格な「実践による学習」アプローチ、ブラウザ内のインタラクティブなオンライン環境で自動化されたステップバイステップのチェック機能、スキルツリーベースのシステムによる構造化されたコンテンツ組織、30 のスキルツリーと 6,000 以上のラボを含む成長し続ける学習リソースにより、[LabEx](https://labex.io) は包括的な実践教育を提供します。プラットフォームには、最新の AI モデルを基盤とした学習アシスタント Labby が含まれており、対話型学習体験を提供します。
+[すべてのチャレンジを見る](https://labex.io/ja/learn/hydra).
 
 ## その他
 
-- 🔗 [NumPy プログラミングコース](https://github.com/labex-labs/awesome-programming-courses)
-- 🔗 [NumPy プログラミングプロジェクト](https://github.com/labex-labs/awesome-programming-projects)
-- 🔗 [NumPy 無料チュートリアル](https://github.com/labex-labs/numpy-free-tutorials)
+- 🔗 [LabEx で Hydra について詳しく見る](https://labex.io/ja/learn/hydra)
+- 🔗 [さらにプログラミングプロジェクトを見る](https://github.com/labex-labs/awesome-programming-projects)
+- 🔗 [プログラミングコースを見る](https://github.com/labex-labs/awesome-programming-courses)
 
